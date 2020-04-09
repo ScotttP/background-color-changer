@@ -39,5 +39,5 @@ button {
 
 button:hover {
     transform: scale(1.1);
-    background-color: rgb(230, 230, 255)
+    font-size: medium;
 }
