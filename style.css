@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+    }
+
+body {
+    height: 100%;
+}
+.divContainer{ 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+    width: 200px;
+    background-color: rgb(256,256,256);
+    min-height: 100px;
+}
+button {
+    min-width: 100px;
+    max-width: 35%;
+    text-align: center;
+    line-height: 2vh;
+    border: 2px black solid;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.75s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(230, 230, 255)
+}
